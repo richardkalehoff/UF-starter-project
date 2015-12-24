@@ -1,0 +1,7 @@
+{
+    "preset": "jquery",
+    "validateQuoteMarks": "'",
+    "requireCapitalizedComments": false,
+    "disallowMultipleSpaces": true,
+    "requireDotNotation": false
+}
