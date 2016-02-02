@@ -39,7 +39,6 @@
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "number-zero-length-no-unit": true,
-    "property-no-vendor-prefix": true,
     "rule-no-duplicate-properties": true,
     "rule-no-shorthand-property-overrides": true,
     "rule-non-nested-empty-line-before": "always",
