@@ -12,7 +12,6 @@
     "color-no-invalid-hex": true,
     "comment-empty-line-before": "always",
     "comment-whitespace-inside": "always",
-    "declaration-block-no-duplicate-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-space-after": "always-single-line",
