@@ -1,11 +1,9 @@
 {
   "rules": {
-    "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always-multi-line",
     "block-no-empty": true,
     "block-opening-brace-newline-after": "always-multi-line",
-    "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
     "color-hex-length": "long",
@@ -14,7 +12,6 @@
     "comment-whitespace-inside": "always",
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-block-semicolon-newline-after": "always",
-    "declaration-block-semicolon-space-after": "always-single-line",
     "declaration-block-semicolon-space-before": "never",
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-space-after": "always",
@@ -24,7 +21,6 @@
     "function-comma-space-after": "always",
     "function-comma-space-before": "never",
     "function-parentheses-space-inside": "never",
-    "function-url-quotes": "always",
     "function-whitespace-after": "always",
     "indentation": 4,
     "media-feature-colon-space-after": "always",
@@ -32,20 +28,19 @@
     "media-feature-name-no-vendor-prefix": true,
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
-    "media-query-list-comma-newline-after": "always-multi-line",
     "media-query-list-comma-space-after": "always-single-line",
     "media-query-list-comma-space-before": "never",
-    "media-query-parentheses-space-inside": "never",
     "no-eol-whitespace": true,
-    "no-missing-eof-newline": true,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "length-zero-no-unit": true,
-    "rule-non-nested-empty-line-before": "always",
+    "rule-non-nested-empty-line-before": ["always", { "except": ["after-single-line-comment"] }],
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
     "selector-list-comma-newline-after": "always",
+    "selector-list-comma-space-before": "never",
     "selector-pseudo-element-colon-notation": "double",
-    "value-list-comma-space-after": "always"
+    "value-list-comma-space-after": "always",
+    "value-list-comma-space-before": "never"
   }
 }
